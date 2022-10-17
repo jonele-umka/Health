@@ -1,0 +1,123 @@
+.headText {
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+.headText h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+.headText h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 45px;
+}
+.headText p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 23px;
+}
+.services {
+	margin-bottom: 20px;
+}
+.serviceBox {
+	margin-bottom: 50px;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	column-gap: 20px;
+}
+.serviceBox div {
+	text-align: center;
+	cursor: pointer;
+	padding: 18px 45px 24px 45px;
+}
+.serviceBox div:hover {
+	background: #ffffff;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+	border-radius: 8px;
+}
+.serviceBox p {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.serviceText {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.serviceText div {
+	margin-bottom: 15px;
+	display: flex;
+	align-items: flex-start;
+    width: 550px;
+}
+
+.serviceText h1 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	text-transform: uppercase;
+}
+.serviceText img {
+	margin-right: 30px;
+}
+.serviceText div:last-child {
+	margin-bottom: 0;
+}
+
+.background {
+	background-image: url(../image/Star_of_life.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 140vh;
+    position: absolute;
+    left: 0;
+    top: 175%;
+    z-index: -1;
+
+}
+.apps {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 20px;
+}
+.appMarket div {
+	display: flex;
+	column-gap: 20px;
+}
+
+.appMarket h1 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	text-transform: uppercase;
+	width: 500px;
+	margin-bottom: 60px;
+}
+.mobileImg img:first-child{
+    position: relative;
+}
+.mobileImg img:last-child{
+    position: absolute;
+    left: 70%;
+    top: 200%;
+}
+

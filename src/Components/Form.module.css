@@ -1,0 +1,135 @@
+.form {
+	margin-top: 50px;
+    margin-bottom: 130px;
+}
+.form h1 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+	margin-bottom: 65px;
+}
+.formBox {
+	display: grid;
+	column-gap: 20px;
+	row-gap: 30px;
+	grid-template-columns: repeat(2, 1fr);
+	margin-bottom: 30px;
+}
+
+.formBox2 {
+	display: grid;
+	column-gap: 20px;
+	row-gap: 30px;
+	grid-template-columns: repeat(2, 1fr);
+}
+.box {
+	display: flex;
+	flex-direction: column;
+}
+.box2 {
+	display: flex;
+	flex-direction: column;
+}
+
+.formBlocks label {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+}
+.formBlocks input {
+	background: #ffffff;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+	border-radius: 8px;
+	margin-top: 10px;
+	border: none;
+	height: 20px;
+	padding: 15px 0 15px 20px;
+}
+.formBlocks::placeholder {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #d9d9d9;
+}
+.formBlock{
+    margin-bottom: 95px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	appearance: none;
+}
+input:focus {
+	outline: none;
+}
+.formBlock {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 20px;
+}
+.checkBox {
+	display: flex;
+	column-gap: 50px;
+	margin-top: 25px;
+}
+input[type='radio'] {
+	color: #000;
+	background: #000000;
+	border: 1px solid #000000;
+	margin-right: 15px;
+	height: auto;
+	margin-top: 0;
+	margin-left: 0;
+}
+.result {
+	margin-top: 45px;
+}
+.result h1 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 56px;
+	color: #008d0e;
+	margin-top: 7px;
+}
+.formButton {
+	display: flex;
+    justify-content: center;
+    column-gap:20px;
+}
+
+.formButton1 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	text-transform: uppercase;
+	color: #008d0e;
+	padding: 20px 25px;
+	background: #ffffff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 8px;
+    cursor: pointer;
+}
+.formButton2 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	text-transform: uppercase;
+	color: #cf3336;
+	padding: 20px 25px;
+	background: #ffffff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 8px;
+    cursor: pointer;
+}

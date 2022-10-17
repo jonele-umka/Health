@@ -1,0 +1,113 @@
+.wrapper {
+	width: 737px;
+	margin: 0 auto;
+}
+.window {
+	background: #ffffff;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+	border-radius: 8px;
+	height: 478px;
+	/* width: 813px; */
+    width: 813px;
+    position: fixed;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 10%;
+
+}
+.windowHead{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 60px 0 15px 0;
+	border-bottom: 1px solid #000;
+	margin-bottom: 15px;
+}
+.windowHead img{
+	padding: 0 10px 0 0;
+	cursor: pointer;
+}
+.button{
+    text-align: center;
+}
+.windowHead span {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 148.69%;
+}
+.windowHead h1 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 148.69%;
+}
+.formBox {
+	display: grid;
+	column-gap: 20px;
+	row-gap: 30px;
+	grid-template-columns: repeat(2, 1fr);
+	margin-bottom: 30px;
+}
+.windowForm {
+	display: flex;
+	flex-direction: column;
+}
+.formBox div {
+	display: flex;
+	flex-direction: column;
+}
+.formBox div {
+	display: flex;
+	flex-direction: column;
+}
+.windowForm label {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+}
+.windowForm input {
+	background: #ffffff;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+	border-radius: 8px;
+	margin-top: 10px;
+	border: none;
+	height: 20px;
+	padding: 15px 0 15px 20px;
+}
+.windowForm::placeholder {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #d9d9d9;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	appearance: none;
+}
+input:focus {
+	outline: none;
+}
+.formButton1 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	text-transform: uppercase;
+	color: #008d0e;
+	padding: 20px 25px;
+	background: #ffffff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 8px;
+	cursor: pointer;
+}
